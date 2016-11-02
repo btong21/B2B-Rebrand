@@ -1,0 +1,42 @@
+/* your styles go here */
+
+.subscribe {
+	background: orange;
+}
+
+.subscribe:hover {
+	background: orange;
+}
+
+	#mailchimp input {
+		border: medium none;
+    color: #a6a6a6;
+    font-family: 'robotolight';
+    font-size: 18px;
+    margin-bottom: 50px;
+   
+    padding: 10px 10px;
+    width: 300px;
+    height: 54px;
+	/*	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;*/
+	}
+		#mailchimp input.email { background: #fdfcfb }
+		#mailchimp input.name { background: blue}
+		#mailchimp input[type="submit"] {
+			background: #FF9900;
+			color: #fff;
+			cursor: pointer;
+			font-size: 18px;
+			width: 150px;
+			padding: 8px 0;
+			font-family: 'Source Sans Pro', sans-serif;
+
+		}
+			#mailchimp input[type="submit"]:hover { background: #ffad32 }
+
+
+.required {
+	font-family: 'Source Sans Pro', sans-serif;
+}
